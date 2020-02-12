@@ -1,41 +1,46 @@
-
-**1. Apa perbedaan antara IaaS, SaaS, dan PaaS?
+1. Apa perbedaan antara IaaS, SaaS, dan PaaS?
 
 Model SaaS (Perangkat Lunak sebagai Layanan) Anda diberikan akses ke perangkat lunak aplikasi yang sering disebut sebagai 
-"perangkat lunak sesuai permintaan". Anda tidak perlu khawatir tentang instalasi, pengaturan, dan menjalankan aplikasi. Penyedia layanan akan melakukannya untuk Anda. Anda hanya perlu membayar dan menggunakannya melalui beberapa klien.
+"perangkat lunak sesuai permintaan". Anda tidak perlu khawatir tentang instalasi, pengaturan, dan menjalankan aplikasi.
+Penyedia layanan akan melakukannya untuk Anda. Anda hanya perlu membayar dan menggunakannya melalui beberapa klien.
 Contoh: Google Apps, Microsoft Office 365.
 
-PaaS (Platform as a Service), as the name suggests, provides you computing platforms which typically includes operating system, programming language execution environment, database, web server etc.
-Examples: AWS Elastic Beanstalk, Windows Azure, Heroku, Overview, Google App Engine, Apache Stratos.
+PaaS (Platform as a Service), seperti namanya, memberikan Anda platform komputasi yang biasanya mencakup sistem operasi, 
+lingkungan eksekusi bahasa pemrograman, database, server web, dll.
+Contoh: AWS Elastic Beanstalk, Windows Azure, Heroku, Ikhtisar, Google App Engine, Apache Stratos.
 
-While in IaaS (Infrastructure as a Service), as the name suggests, provides you the computing infrastructure, physical or (quite often) virtual machines and other resources like virtual-machine disk image library, block and file-based storage, firewalls, load balancers, IP addresses, virtual local area networks etc.
-Examples: Amazon EC2, Windows Azure, Rackspace, Google Compute Engine.
-
-
-
-2. SaaS Platform Architecture
-
-With this model, a single version of the application, with a single configuration is used for all customers. 
-The application is installed on multiple machines to support scalability (called horizontal scaling). 
-In some cases, a second version of the application is set up to offer a select group of customers with access to pre-release versions 
-of the applications for testing purposes. In this traditional model, each version of the application is based on a unique code. 
-Although an exception , some SaaS solutions do not use multitenancy, to cost-effectively manage a large number of customers in place.
-Whether multitenancy is a necessary component for software-as-a-service is a topic of controversy.
+IaaS (Infrastruktur sebagai Layanan), seperti namanya, memberikan Anda infrastruktur komputasi, fisik atau (cukup sering) 
+mesin virtual dan sumber daya lainnya seperti pustaka citra disk mesin virtual, blok dan penyimpanan berbasis file, firewall, 
+beban balancers, alamat IP, jaringan area lokal virtual dll.
+Contoh: Amazon EC2, Windows Azure, Rackspace, Google Compute Engine.
 
 
-3. SaaS (Software as a Service) Platform itecture
 
-SaaS is a way to deliver software, the provider of the software centrally hosts one or more applications and makes them available 
-to customers over the internet. SaaS is also one of the main pillars of cloud computing.  An explosion in Cloud computing, driven by 
-cloud providers such as Microsoft with Azure or Amazon with AWS, has seen the growth in other products and services being delivered over 
-the internet such as:
+2. Arsitektur Platform SaaS
 
--Infrastructure as a Service
--Platform as a Service
--Machine Learning as a Service 
--...and much more!
+Dengan model ini, satu versi aplikasi, dengan satu konfigurasi digunakan untuk semua pelanggan.
+Aplikasi ini diinstal pada banyak mesin untuk mendukung skalabilitas (disebut penskalaan horizontal).
+Dalam beberapa kasus, versi kedua aplikasi diatur untuk menawarkan kelompok pelanggan tertentu dengan akses ke versi pra-rilis
+aplikasi untuk tujuan pengujian. Dalam model tradisional ini, setiap versi aplikasi didasarkan pada kode unik.
+Meskipun pengecualian, beberapa solusi SaaS tidak menggunakan multitenancy, untuk mengelola secara efektif sejumlah besar pelanggan 
+di tempat. Apakah multitenancy merupakan komponen yang diperlukan untuk perangkat lunak-sebagai-layanan adalah topik kontroversi.
 
-Any updates or patches to a SaaS application are all handled by the provider.  The customer doesn’t need to download upgrades or reinstall
-new versions of a product as the software is delivered over the internet.
 
-With an explanation of SaaS out of the way, let’s look at why you might want to use this software product that’s architected like this.
+
+3. Platform SaaS (Perangkat Lunak sebagai Layanan)
+
+SaaS adalah cara untuk mengirimkan perangkat lunak, penyedia perangkat lunak ini secara sentral menampung satu atau lebih aplikasi dan 
+menyediakannya kepada pelanggan melalui internet. SaaS juga merupakan salah satu pilar utama komputasi awan. Sebuah ledakan dalam 
+komputasi Cloud, didorong oleh penyedia cloud seperti Microsoft dengan Azure atau Amazon dengan AWS, telah melihat pertumbuhan produk dan layanan lain yang dikirim
+internet seperti:
+
+-Infrastruktur sebagai Layanan
+-Platform sebagai Layanan
+-Mesin Belajar sebagai Layanan
+-...dan banyak lagi!
+
+Setiap pembaruan atau tambalan untuk aplikasi SaaS semuanya ditangani oleh penyedia. Pelanggan tidak perlu mengunduh pemutakhiran atau 
+menginstal ulang versi baru dari suatu produk ketika perangkat lunak dikirimkan melalui internet.
+
+Dengan penjelasan tentang SaaS yang menghalangi, mari kita lihat mengapa Anda mungkin ingin menggunakan produk perangkat lunak ini 
+yang dirancang seperti ini.
