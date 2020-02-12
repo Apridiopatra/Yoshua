@@ -1,4 +1,4 @@
-**What is the difference between IaaS, SaaS, and PaaS?**
+1. What is the difference between IaaS, SaaS, and PaaS?
 
 SaaS (Software as a Service) model you are provided with access to application software often referred to as "on-demand software". You don't have to worry about the installation, setup and running of the application. Service provider will do that for you. You just have to pay and use it through some client.
 Examples: Google Apps, Microsoft Office 365.
@@ -11,7 +11,7 @@ Examples: Amazon EC2, Windows Azure, Rackspace, Google Compute Engine.
 
 
 
-**2. SaaS Platform Architecture**
+2. SaaS Platform Architecture
 
 With this model, a single version of the application, with a single configuration is used for all customers. 
 The application is installed on multiple machines to support scalability (called horizontal scaling). 
@@ -21,7 +21,7 @@ Although an exception , some SaaS solutions do not use multitenancy, to cost-eff
 Whether multitenancy is a necessary component for software-as-a-service is a topic of controversy.
 
 
-**3. SaaS (Software as a Service) Platform itecture**
+3. SaaS (Software as a Service) Platform itecture
 
 SaaS is a way to deliver software, the provider of the software centrally hosts one or more applications and makes them available 
 to customers over the internet. SaaS is also one of the main pillars of cloud computing.  An explosion in Cloud computing, driven by 
