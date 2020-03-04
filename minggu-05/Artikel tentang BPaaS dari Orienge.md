@@ -1,4 +1,4 @@
-BPaaS: Model Diagram, Advantages, and Prospects
+# BPaaS: Model Diagram, Advantages, and Prospects
 
 Gartner mendefinisikan BPaaS (Proses Bisnis sebagai Layanan) sebagai memberikan layanan kinerja tugas bisnis berdasarkan teknologi cloud. Model BPaaS adalah solusi terbaik untuk perusahaan yang perlu mengotomatiskan pekerjaan utama berulang tanpa adanya karyawan khusus. Beberapa pelanggan penyedia BPaaS dapat menggunakan layanan yang sama. Pembayaran untuk outsourcing semacam itu dilakukan dengan harga tetap untuk suatu periode atau setelah penyelesaian layanan.
 
